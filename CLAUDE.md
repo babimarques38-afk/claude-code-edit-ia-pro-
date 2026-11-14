@@ -38,3 +38,10 @@ must set no permission mode at all. Do not skip or weaken the check.
 
 Keep each workflow's `permissions:` block minimal, and never print tokens or
 environment variables in workflow logs.
+
+## Edição de vídeo (EDIT IA PRO)
+
+Quando a pessoa mandar um vídeo pra editar, use a skill `.claude/skills/edit-ia-pro/SKILL.md`
+e o padrão da marca em `.claude/skills/edit-ia-pro/padroes/` (Diesel NoxTec, Diesel Tec).
+Fale em português do Brasil simples, sem mostrar código. Os vídeos e os arquivos de trabalho
+ficam em `edit-ia-pro/` (fora do git); só os padrões aprovados vão pro git.
